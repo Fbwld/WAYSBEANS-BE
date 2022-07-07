@@ -11,7 +11,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-     await queryInterface.bulkInsert(
+    await queryInterface.bulkInsert(
       "users",
       [
         {
@@ -22,7 +22,6 @@ module.exports = {
           status: "admin",
         },
       ],
-      {}
     );
   },
 
